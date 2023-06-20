@@ -16,7 +16,7 @@ cabal-version:       >=1.10
 
 library
   build-depends:       base >= 4.7 && < 5,
-                       pandoc-types >= 1.16 && < 1.18
+                       pandoc-types >= 1 && < 2
   default-language:    Haskell2010
 
 executable pandoc-docx-pagebreak
